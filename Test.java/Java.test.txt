@@ -1,0 +1,86 @@
+1. Super keyword is used to Access the methods of parent class.
+   this keywork is used to access methods of the current class.
+	SCP(String constant pool) is present in Heap Area.
+	
+3. extends keyword
+	*A class can extend one super class.
+	*Associated with interface
+   Implementation
+   *
+   *Associated with abstraction
+
+11. Types of construction;
+	1.Default Construction
+	2.Parameterized Construction
+	3.Copy Construction
+	4.Private Construction
+	
+9. Class and Object
+	Class: class is a blueprint which contains states and behaviours.
+	Object: Object is an Instance of a class.
+	
+	Characteristics of abstract class:
+	
+10. 00 Space of memory occupied by a class in java.
+
+18. public class Pat {
+	public static void main(String args[]) {
+
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				if (i == 0 || j == 0 || i == 2 || j == 2) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+13. Abstraction displays only the relevant attributes of objects and hides the unwanted details.
+
+6. Polymorphism: one object is behaving as diffrently  at given instance of time.
+	*Polymorphism achived with the help of Inheritance
+	Types of Polymorphism
+	1.Compile time polymorphism -- Method OverLoading
+	2.Run Time polymorphism -- Method OverRiding- to achive runtime polymorphism.
+
+15. Types of Arguments 
+		1. Premitive 
+		2. Non Premitive
+		
+19. public class EvenOrOdd {
+	public static void main(String[] args) {
+		int a=20; int b=7;
+		if(a %2==0) {
+			System.out.println("The Given Number is Even");
+		}
+		else {
+			System.out.println("The Given number is Odd");
+		}
+		
+		if(b %2==0) {
+			System.out.println("The Given Number is Even");
+		}
+		else {
+			System.out.println("The Given number is Odd");
+		}
+	}
+
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
