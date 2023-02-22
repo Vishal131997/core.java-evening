@@ -17,11 +17,9 @@ public class KiraniShoptester {
 
 		// down casting..... adding some implementation in sub classes
 		KiraniShop kiranishop = (KiraniShop) shop;
-		kiranishop.add();
-		kiranishop.salesInfo();
 
-		
-		//making child class object with the help of parent class reference its upcasting.. 
+		// making child class object with the help of parent class reference its
+		// upcasting..
 	}
 
 }
